@@ -10,3 +10,8 @@ The basic functionality follows this flowchart.
 # Additional Features
 
 These are features added on top of the basic functionality.
+
+* Support for exponentiation
+* Input validation
+* multiple calculations on current calculated value
+* able to do multiple new calculations after previous is finished
