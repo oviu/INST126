@@ -5,7 +5,7 @@ A basic calculator for the course INST126
 # About
 
 The basic functionality follows this flowchart.
-![](https://github.com/oviu/INST126/Project1/flowchart.png)
+![image](https://github.com/oviu/INST126/Project1/flowchart.png)
 
 # Additional Features
 
