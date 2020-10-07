@@ -1,6 +1,6 @@
 # INST 126 Project 2 Hangman Game
 
-A basic text-based implementation of the game Hangman for the course INST126.
+A text-based implementation of the game Hangman for the course INST126.
 
 # Rules
 Users have 10 lives to guess all the correct letters of a random
