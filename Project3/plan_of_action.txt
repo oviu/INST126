@@ -1,0 +1,22 @@
+The problem becomes easier if we are able to navigate and reason about each user's email data.
+From the given log file, I would obtain each line in a list and then reverse the list, so that
+the email's appear on top first. A dictionary would be used for the user data; the key being the user's email,
+and the value being a list of sessions, each session being a dictionary for the session's date/time, activity,
+and server. For every 2 lines parsed in the reversed log file, the first would be the key to the main dictionary
+and the 2nd would be a dictionary of that session's activity appended to a list. Another useful
+organization and required by specification would be to sort each user's session list by date.
+
+Since the format for the output files for suspicious activity, irresponsible behavior,
+and system glitch can be the same, I would write a function that formats a dictionary of
+the users and their session data for the specified problem.
+
+Since the problem counts for suspicious activity, irresponsible behavior, and
+system glitch all are 1 for each day. A function can be written that looks for unique days
+in a problem user's problem session list and returns a count.
+
+For each specific problem a function can be written that returns a dictionary containing the users
+and a list of the culprit sessions. For domain count, a set can be used to ensure uniqueness and then
+returned where it can be formatted by a function that processes each domain for output.
+
+In general, there would be 1 main dictionary data structure that would be passed in to the various
+functions returning the necessary information. There would be around 6ish functions.
