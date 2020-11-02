@@ -15,5 +15,5 @@ formatted and written to various created report files.
 . The length of the value of each date key from the returned dictionaries in each behavior report function
 gives the quantity of issues for that day.
 
-. Instead of having user's as key values it seems to be easier to handle the data if each
+. Instead of having users as key values it seems to be easier to handle the data if each
 date was a key value for the main dictionary.
