@@ -11,7 +11,7 @@ This dictionary is then passed into various functions returning information cont
 specific insight. Each of these insights are then passed into a function where they are
 formatted and written to various created report files.
 
-The general flow is - get data -> pass data into various functions and return wanted data -> write data to file
+The general flow is - get data -> pass data into various functions and return wanted data -> write data to files
 
 # Notes/Updates
 . The length of the value of each date key from the returned dictionaries in each behavior report function
