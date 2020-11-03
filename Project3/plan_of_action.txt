@@ -20,3 +20,5 @@ returned where it can be formatted by a function that processes each domain for 
 
 In general, there would be 1 main dictionary data structure that would be passed in to the various
 functions returning the necessary information. There would be around 6ish functions.
+
+UPDATE: decided to use dates as keys instead of users for the main data structure.
