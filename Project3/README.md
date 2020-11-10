@@ -14,6 +14,8 @@ formatted and written to various created report files.
 The general flow is - get data -> pass data into various functions and return wanted data -> write data to files
 
 # Notes/Updates
+. A function for parsing the log file is used and the flowchart is in the flow chart.
+
 . The length of the value of each date key from the returned dictionaries in each behavior report function
 gives the quantity of issues for that day.
 
@@ -24,8 +26,9 @@ date was a key value for the main dictionary.
 Maybe in the future to better plan out data structures, methods for handling the data.
 
 . The write_report function was a hassle. It did not pan out as expected from the flow chart.Since my
-data was sorted by date, and the specification was by members then date, my solution was to create a list of strings
-that followed the specification and joined them in writing to the file report. Updated write_report flowchart.
+data was sorted by date, and the specification was by members then date, my solution was to create a dictionary containing users  with a list of strings
+that followed the specification and joined them in writing to the file report. Similar troubles in getting the day problem day couts for a user
+so I used the same dictionary concept. Updated write_report flowchart.
 
 . Another error I ran into was an improper if statement placement. It placed all users and their session in a problem dictionary.
 It took me little bit of time to figure it out and move it out of the for loop.
@@ -34,5 +37,6 @@ It took me little bit of time to figure it out and move it out of the for loop.
 I used rjust() to right align the counts.
 
 # Additional Insights
-. Provide a function that tests to see if atleast 1 of the users exhibit normal behavior. Normal behavior
-meaning that a user is not part of system glitch, irresponsible behavior, or suspicious activities.
+Normal Behavior Function - Tests to see if at least 1 of the users exhibits normal behavior. Normal behavior
+meaning that a user is not part of system glitch, irresponsible behavior, or suspicious activities. The flowchart
+and report file are in their resspective folders.
