@@ -19,3 +19,20 @@ gives the quantity of issues for that day.
 
 . Instead of having users as key values it seems to be easier to handle the data if each
 date was a key value for the main dictionary.
+
+. Commonly using triple for loop pattern. Probably inneficient. Due to time constraints, I just rolled with it.
+Maybe in the future to better plan out data structures, methods for handling the data.
+
+. The write_report function was a hassle. It did not pan out as expected from the flow chart.Since my
+data was sorted by date, and the specification was by members then date, my solution was to create a list of strings
+that followed the specification and joined them in writing to the file report. Updated write_report flowchart.
+
+. Another error I ran into was an improper if statement placement. It placed all users and their session in a problem dictionary.
+It took me little bit of time to figure it out and move it out of the for loop.
+
+. A slight annoyance was the formatting for the unique domains report. The count for each domain wasn't justified in the text.
+I used rjust() to right align the counts.
+
+# Additional Insights
+. Provide a function that tests to see if atleast 1 of the users exhibit normal behavior. Normal behavior
+meaning that a user is not part of system glitch, irresponsible behavior, or suspicious activities.
